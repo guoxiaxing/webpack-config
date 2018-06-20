@@ -7,6 +7,12 @@ module.exports={
 		// 打包后的文件名
 		filename:'bundle.js'
 	},
+	//配置服务器
+	devServer:{
+		inline:true,//自动刷新
+		open:true,//自动打开浏览器
+		port:8080
+	},
 	//配置模块加载器
 	module:{
 		// 配置规则

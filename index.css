@@ -1,3 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
 body{
-	background-color: #ccc;
+	background-color: #f9c9c9;
+}
+/*外边框样式*/
+.out{
+	width: 712px;
+	height: 260px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	background-color: #f1f1f1;
+}
+/*头部样式*/
+.title{
+	width: 100%;
+	height: 60px;
+}
+.title ul
+{
+	width: 100%;
+	height: 100%;
+}
+.clear{
+	display: block;
+	content: '';
+	clear: both;
+}
+.title ul li{
+	font-weight: bold;
+	font-family: 'Microsoft YaHei';
+	float:left;
+	height: 56px;
+	line-height: 56px;
+	padding:0 25px; 
+	background: white;
+	box-shadow:0 4px 0 #e4e4e4;
+	margin-right: 14px;
+	color: #cccccc;
+	cursor: pointer;  
+}
+.title .active{
+	background-color: #a0cac0;
+	box-shadow: 0 4px 0 #68a597;
+	color:white;
+}
+
+/*内容区样式*/
+.bottom{
+	width: 100%;
+	height: 190px;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.bottom>div{
+	font-weight: bold;
+	font-family: 'Microsoft YaHei';
+	width: 100%;
+	height: 186px;
+	float: left;
+	box-shadow: 0 4px 0 #e4e4e4;
+	background: white;
+	text-align: center;
+	line-height: 186px;
+	color: #cccccc;
 }

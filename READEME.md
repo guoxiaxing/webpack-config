@@ -40,3 +40,5 @@ cnpm i babel-core babel-loader babel-preset-es2015 -D
 4.react-hot-loader
 安装：
 cnpm i react react-dom babel-preset-react react-hot-loader -D
+
+用配置好的webpack写了一个选项卡组件，灵活性好，可以任意添加上面的按钮，且内容区的个数随着上面按钮的个数而变化，当没有对于内容时显示nocontent
